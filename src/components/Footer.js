@@ -31,40 +31,40 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/Travel-Website'>Testimonials</Link>
+            <Link to='/Travel-Website'>Careers</Link>
+            <Link to='/Travel-Website'>Investors</Link>
+            <Link to='/Travel-Website'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/Travel-Website'>Contact</Link>
+            <Link to='/Travel-Website'>Support</Link>
+            <Link to='/Travel-Website'>Destinations</Link>
+            <Link to='/Travel-Website'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/Travel-Website'>Submit Video</Link>
+            <Link to='/Travel-Website'>Ambassadors</Link>
+            <Link to='/Travel-Website'>Agency</Link>
+            <Link to='/Travel-Website'>Influencer</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/Travel-Website'>Instagram</Link>
+            <Link to='/Travel-Website'>Facebook</Link>
+            <Link to='/Travel-Website'>Youtube</Link>
+            <Link to='/Travel-Website'>Twitter</Link>
           </div>
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/Travel-Website' className='social-logo'>
               TRVL
               <FaTypo3 />
             </Link>
@@ -73,7 +73,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
-              to='/'
+              to='/Travel-Website'
               target='_blank'
               aria-label='Facebook'
             >
@@ -81,7 +81,9 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link instagram'
-              to='/'
+              to={
+                'https://www.instagram.com/4bdeladim/'
+              }
               target='_blank'
               aria-label='Instagram'
             >
@@ -89,7 +91,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link youtube'
-              to='/'
+              to='/Travel-Website'
               target='_blank'
               aria-label='Youtube'
             >
@@ -97,7 +99,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link twitter'
-              to='www.twitter.com/4BD_O'
+              to='/Travel-Website'
               target='_blank'
               aria-label='Twitter'
             >
@@ -105,7 +107,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link twitter'
-              to='/'
+              to='/Travel-Website'
               target='_blank'
               aria-label='LinkedIn'
             >
